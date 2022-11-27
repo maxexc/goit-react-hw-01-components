@@ -4,10 +4,10 @@ import { HiOutlineChartPie, HiOutlineChartBar } from "react-icons/hi";
 export const Recipe = ({ recipe: { name, time, servings, calories, image } }) => { 
     // const { name, time, servings, calories} = recipe
     return <div style={{ borderBottom: "1px solid black" }}>
-        <img src={image}
+        {/* <img src={image}
             alt={name}
             width="320"
-        />
+        /> */}
         <h2>{name}</h2>
         <ul>
             <li>
