@@ -18,6 +18,7 @@ RecipeList.propTypes = {
     recipes: PropTypes.arrayOf(
         PropTypes.shape({
             id: PropTypes.string.isRequired,
+            // color: PropTypes.oneOf(['red', 'blue'])
         })
     ).isRequired,
 }
