@@ -2,10 +2,6 @@
 
 body {
   margin: 0;
-  /*  */
-  margin-left: 20px;
-  margin-top: 20px;
-  /*  */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -18,71 +14,42 @@ code {
     monospace;
 }
 
-/* Сброс стилей / Reset styles */
-p,
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
 }
 
-ul {
+ul,
+ol {
   margin: 0;
-  /* padding-left: 0; */
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
+  padding: 0;
 }
-li {
-  margin-bottom: 10px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-svg {
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* margin-right: 5px; */
-}
-
-a {
-  color: currentColor;
-}
-
-/* убирает рамку при TAB */
-/* a:focus,
-button:focus,
-.modal-form__input,
-.modal-form__text,
-.mailing__input {
-  outline: currentColor;
-} */
 
 img {
   display: block;
-  /* width: 100%;
-  min-width: 100%; */
+  max-width: 100%;
   height: auto;
 }
-.menu {
-  display: flex;
-  flex-direction: row;
-  /* align-items: center; */
-  justify-content: center;
-  gap: 20px;
+li {
+  list-style: none;
 }
-h2 {
-  text-align: center;
+
+.followers * {
+  fill: rgb(0, 204, 255);
 }
-h3 {
-    text-align: center;
-  }
+.view * {
+  fill: rgb(0, 255, 0);
+}
+.like * {
+  fill: rgb(255, 56, 56);
+}
