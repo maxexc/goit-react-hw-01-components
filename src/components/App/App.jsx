@@ -30,7 +30,4 @@ export const App = () => {
   );
 };
 
-// App.propTypes = {
-//   children: PropTypes.node,
-// };
 
