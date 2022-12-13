@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import { Profile } from "../Profile/Profile";
 import { Statistics } from "components/Statistics/Statistics";
 import { FreindList } from "components/FriendList/FriendList";
